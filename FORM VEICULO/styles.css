@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f0ebf8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #333;
+}
+
+p,
+label {
+  color: #444;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 2px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"],
+textarea {
+  width: 400px;
+}
+
+textarea {
+  padding: 10px 5px;
+}
+
+.header {
+  height: 160px;
+  padding: 20px;
+  background-color: #673ab7;
+}
+
+.header h3 {
+  color: #fff;
+  margin-top: 0;
+}
+
+.form-container {
+  background-color: #fdfdfd;
+  width: 60%;
+  /* margin-left: 20%; */
+  margin: 0 auto;
+  position: relative;
+  top: -62px;
+}
+
+.form-header {
+  border-bottom: 1px solid #444;
+  height: 45px;
+}
+
+.form-header p {
+  color: #673ab7;
+  border-bottom: 2px solid #673ab7;
+  width: 100px;
+  text-align: center;
+  margin: 0 auto;
+  text-transform: uppercase;
+  height: 45px;
+  line-height: 45px;
+}
+
+.form-body {
+  padding: 30px;
+  display: flex; /* Ativa Flexbox */
+  flex-direction: column; /* Alinha os elementos verticalmente */
+  align-items: center; /* Centraliza horizontalmente */
+}
+
+.form-title {
+  margin-bottom: 15px;
+}
+
+.form-body p {
+  margin-bottom: 20px;
+}
+
+.required-field {
+  color: #d80835;
+}
+
+.box-input {
+  margin-bottom: 35px;
+}
+
+.block {
+  display: block;
+}
+
+.optional-box {
+  display: inline-block;
+  margin: 0 30px 30px 0;
+}
+
+.optional-list li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+.box-input p {
+  margin-bottom: 15px;
+}
+
+.btn-submit {
+  background-color: #673ab7;
+  color: #fff;
+  border: 2px solid transparent;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.btn-submit:hover {
+  background-color: #fff;
+  border-color: #673ab7;
+  color: #673ab7;
+}
+
+.btn-reset {
+  background-color: #673ab7;
+  color: #fff;
+  border: 2px solid transparent;
+  width: 150px;
+  height: 50px;
+  margin-left: 45px;
+  margin-right: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.btn-reset:hover {
+  background-color: #fff;
+  border-color: #673ab7;
+  color: #673ab7;
+}

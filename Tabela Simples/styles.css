@@ -1,0 +1,34 @@
+.tabela-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+.tabela{
+    background-color: #f0f0f0;
+    color: #222222;
+    border: 1px solid #333333;
+    width: 80%; /* 80% da largura do container pai */
+    height: 675px; /* Altura fixa de 400px */
+    border-radius: 5px;
+    outline: 2px solid #222222;
+}
+
+.tabela th{
+    padding: 10px;
+    border: 1px solid #333333;
+    font-size: 50px;
+}
+
+.tabela td{
+    padding: 10px;
+    text-align: center; /* Centraliza horizontalmente */
+    vertical-align: center; /* Centraliza verticalmente */
+    border: 1px solid #333333;
+    font-size: 50px;
+}
+
+
+
