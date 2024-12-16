@@ -314,3 +314,87 @@ footer{
   font-weight: bold;
   margin: 50px 0 100px;
 }
+
+/* responsiveness */
+
+/* small laptops */
+@media (max-width: 1100px) {
+
+    .main-banner p {
+      padding: 0 50px;
+    }
+
+    .plans-container {
+      width: 95%;
+    }
+
+    .plan {
+      margin: 0 5px;
+    }
+}
+
+/* tablets */
+@media (max-width: 900px) {
+  .main-banner p {
+    padding: 0 80px;
+  }
+
+  .searchdomain-container {
+    padding: 2rem 4rem;
+  }
+}
+
+/* mobile 480px  */
+
+@media (max-width: 600px){
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .navbar-items li{
+    font-size: 12px;
+    margin-left: 10px;
+  }
+
+  .main-banner p {
+    padding: 0 2rem;
+  }
+
+  .services-container ul {
+    flex-direction: column;
+  }
+
+  .plans-container {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 2rem;
+  }
+
+  .plan {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .searchdomain-container h2 {
+    font-size: 28px;
+  }
+
+  .searchdomain-container input[type="text"]{
+    width: 100%;
+  }
+
+  .contact-container {
+    padding: 3rem 2rem;
+  }
+
+  .contact-container input,
+  .contact-container textarea {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+
